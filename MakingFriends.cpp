@@ -1,5 +1,5 @@
 // Making Friends
-//
+// Accepted
 // Author: Abuhena Rony
 #include <bits/stdc++.h>
 
