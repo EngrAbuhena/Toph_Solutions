@@ -1,6 +1,6 @@
 // Tower Of Sticks
 // Accepted
-// Author: Abuhena Rony
+// Author @ Abuhena Rony
 #include <bits/stdc++.h>
 
 int main()

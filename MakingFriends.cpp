@@ -1,6 +1,6 @@
 // Making Friends
 // Accepted
-// Author: Abuhena Rony
+// Author @ Abuhena Rony
 #include <bits/stdc++.h>
 
 int main()

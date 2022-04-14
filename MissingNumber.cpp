@@ -1,6 +1,6 @@
 // Missing Number
 // Accepted
-// Author: Abuhena Rony
+// Author @ Abuhena Rony
 #include <iostream>
 
 int main()
