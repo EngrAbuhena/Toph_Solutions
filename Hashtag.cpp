@@ -3,7 +3,7 @@
 // Author @ Abuhena Rony
 #include <bits/stdc++.h>
 
-void Hashtag(char str[])
+void hashtag(char str[])
 {
     int len = strlen(str);
     for (int x = 0; x < len; ++x)
@@ -20,7 +20,7 @@ int main()
 {
     char str[100];
     scanf("%[^\n]s", str);
-    Hashtag(str);
+    hashtag(str);
     puts(str);
     return 0;
 }
