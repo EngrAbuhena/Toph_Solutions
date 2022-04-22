@@ -3,7 +3,7 @@
 // Author @ Abuhena Rony
 #include <bits/stdc++.h>
 
-void ASCII_Progress_Bar(double perc)
+void ascii_progress_bar(double perc)
 {
     int per = floor(perc);
     int limit = per / 10;
@@ -29,6 +29,6 @@ int main()
 {
     double percent;
     scanf("%lf", &percent);
-    ASCII_Progress_Bar(percent);
+    ascii_progress_bar(percent);
     return 0;
 }
