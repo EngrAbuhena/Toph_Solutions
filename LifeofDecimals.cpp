@@ -9,7 +9,6 @@ void life_of_decimals(int cases, int pi[])
     for (int i = 1; i <= cases; i++)
     {
         scanf("%d", &index);
-
         printf("%d\n", pi[index-1]);
     }
 }
