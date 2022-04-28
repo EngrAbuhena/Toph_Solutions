@@ -9,7 +9,7 @@ int main()
     int testCase;
     cin >> testCase;
     int number;
-    for (int x = 1; x <= testCase; x++)
+    for (size_t x{1}; x <= testCase; x++)
     {
         cin >> number;
         if (number > 0)
