@@ -1,5 +1,5 @@
 // Test Cases
-// Wrong answer on test 5
+// Accepted
 // Author @ Abuhena Rony
 #include <bits/stdc++.h>
 
@@ -15,11 +15,20 @@ int main()
         scanf("%d %d %d", &diff, &cpu, &mem);
 
         if (cpu > cpul)
+        {
             cle = true;
+            break;
+        }
         else if (mem > meml)
+        {
             mle = true;
+            break;
+        }
         else if (diff > 0)
+        {
             wa = true;
+            break;
+        }
         else
             continue;
     }
