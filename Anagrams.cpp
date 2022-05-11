@@ -1,7 +1,8 @@
 // Anagrams
-// ACCEPTED
+// An anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.[1] For example, the word anagram itself can be rearranged into nag a ram, also the word binary into brainy and the word adobe into abode.
+// Accepted
 // Author @ Abuhena Rony
-#include <iostream>
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -15,9 +16,9 @@ int main()
 
     if (strlen(word1) == strlen(word2))
     {
-        for (int x = 0; x < strlen(word1); x++)
+        for (size_t x{}; x < strlen(word1); x++)
         {
-            for (int y = 0; y < strlen(word2); y++)
+            for (size_t y{}; y < strlen(word2); y++)
             {
                 if (word1[x] == word2[y])
                     match++;
